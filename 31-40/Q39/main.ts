@@ -3,10 +3,11 @@
 // "Lahore, Pakistan"
 // Call your function with at least three city-country pairs, and print the value that’s returned.
 // Function to format city and country
-function city_country(city, country) {
-    return "".concat(city, ", ").concat(country);
+function city_country(city: string, country: string): string {
+    return `${city}, ${country}`;
 }
+
 // Calling the function with city-country pairs
 console.log(city_country("Lahore", "Pakistan"));
 console.log(city_country("Paris", "France"));
-console.log(city_country("Sydney", "Australia"));
+console.log(city_country("Sydney", "Australia"));
