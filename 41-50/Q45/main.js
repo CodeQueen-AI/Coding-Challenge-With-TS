@@ -12,13 +12,11 @@ function carInfo(manufacturer, model) {
         "manufacturer": manufacturer,
         "model": model
     };
-    // Adding extra information to the car object
     extras.forEach(function (_a) {
         var key = _a[0], value = _a[1];
         car[key] = value;
     });
     return car;
 }
-// Calling the function with required information and additional key-value pairs
 var myCar = carInfo("Toyota", "Camry", ["color", "blue"], ["year", 2022]);
 console.log(myCar);
