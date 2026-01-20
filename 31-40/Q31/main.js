@@ -10,7 +10,6 @@ if (users.length > 0) {
     }
 }
 else {
-    // If the list is empty
     console.log("We need to find some users!");
 }
 

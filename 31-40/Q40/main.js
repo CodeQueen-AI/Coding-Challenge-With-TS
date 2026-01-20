@@ -15,7 +15,6 @@ function make_album(artist, title, tracks) {
     }
     return album;
 }
-// Creating albums using the function
 var album1 = make_album("Artist1", "Album1");
 var album2 = make_album("Artist2", "Album2", 12); 
 var album3 = make_album("Artist3", "Album3");
