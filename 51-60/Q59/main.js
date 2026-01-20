@@ -7,7 +7,5 @@ function myFunction() {
     console.log("This is my function.");
 }
 exports.myFunction = myFunction;
-// main.js
 var utils_js_1 = require("./utils.js");
-// Now you can use myFunction
 (0, utils_js_1.myFunction)();

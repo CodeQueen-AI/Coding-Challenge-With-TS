@@ -1,15 +1,10 @@
-//Making Flexible Object Keys: Learn how to set up a list where you can change the name of each section 
-//based on what you need at that moment, like adjusting labels based on user choices.
-// A way to make a flexible list
-function createObjectWithDynamicKey(key: string, value: string) {
-    let dynamicObject = {};
-    // Setting up a section in the list with a changeable name
-    dynamicObject[key] = value;
-    return dynamicObject;
-}
+//Find the Average Grade: Given a list of grades, calculate the average grade.
+// A list of grades
+let grades = [88, 94, 72, 99, 53, 77];
 
-// Using the flexible list setup for a user's preference
-let userPreference = createObjectWithDynamicKey("theme", "dark");
+// Calculates the average grade
+let averageGrade = grades.reduce((total, grade) => total + grade, 0) / grades.length;
 
-// Showing the user's choice
-console.log(userPreference);
+// Shows the average grade
+console.log(averageGrade);
+// First, we add up all the grades. Then, we divide by how many grades there are to get the average.

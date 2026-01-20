@@ -1,8 +1,20 @@
-//Keep Only Strings: Given a mix of different types of items, make a new list that has only the word
-// A mixed bag of items
-var mixedArray = [1, "apple", 2, "banana", true, "carrot"];
-// Picks out only the words
-var stringsArray = mixedArray.filter(function (item) { return typeof item === "string"; });
-// Shows the list of just words
-console.log(stringsArray); // Output: ["apple", "banana", "carrot"]
-// This line checks each item: if it's a word, it goes into the new list.
+"use strict";
+//Implement a switch statement that evaluates an expression and uses the default case if none of the cases match.
+function evaluateExpression(value) {
+    switch (value) {
+        case 1:
+            console.log("The value is 1");
+            break;
+        case 2:
+            console.log("The value is 2");
+            break;
+        case 3:
+            console.log("The value is 3");
+            break;
+        default:
+            console.log("The value is not 1, 2, or 3");
+            break;
+    }
+}
+evaluateExpression(2); 
+evaluateExpression(5); 
