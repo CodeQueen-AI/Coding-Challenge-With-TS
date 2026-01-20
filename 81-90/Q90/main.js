@@ -13,6 +13,5 @@ var Example = /** @class */ (function () {
     return Example;
 }());
 var obj = new Example("World");
-// Calling methods
-obj.traditionalFunction(); // Output: Traditional function - Hello, World
-obj.arrowFunction(); // Output: Arrow function - Hello, World
+obj.traditionalFunction(); 
+obj.arrowFunction(); 

@@ -16,7 +16,7 @@ function assignGrade(score) {
         return 'F';
     }
 }
-// Test the function
+
 var studentScore = parseInt(prompt("Enter the student's score: ") || "0");
 var studentGrade = assignGrade(studentScore);
 console.log("The students grade is: ".concat(studentGrade));

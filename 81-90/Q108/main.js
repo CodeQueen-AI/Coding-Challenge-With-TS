@@ -2,7 +2,6 @@
 function areStringsIdenticalIgnoreCase(str1, str2) {
     return str1.toLowerCase() === str2.toLowerCase();
 }
-// Test the function
 var string1 = prompt("Enter the first string: ") || "";
 var string2 = prompt("Enter the second string: ") || "";
 if (areStringsIdenticalIgnoreCase(string1, string2)) {
