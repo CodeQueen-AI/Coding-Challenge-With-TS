@@ -11,5 +11,4 @@ var smartphone = {
         batteryLife: "18 hours"
     }
 };
-// Shows what we've set up about the smartphone
 console.log(smartphone);
