@@ -7,5 +7,4 @@ function getCurrentDateFormatted() {
     var year = now.getFullYear();
     return "".concat(day, "-").concat(month, "-").concat(year);
 }
-console.log(getCurrentDateFormatted()); // Outputs the current date in DD-MM-YYYY format
-// Shows today's date, neatly formatted.
+console.log(getCurrentDateFormatted()); 
