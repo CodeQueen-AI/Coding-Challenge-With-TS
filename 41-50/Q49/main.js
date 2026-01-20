@@ -8,9 +8,7 @@ function logHobbies() {
     }
     // Loops through each hobby in the array
     hobbies.forEach(function (hobby) {
-        // Logs a statement for each hobby
         console.log("I enjoy ".concat(hobby, "."));
     });
 }
-// Calls the function with three hobbies
 logHobbies("reading", "coding", "cycling");

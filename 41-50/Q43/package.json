@@ -1,8 +1,8 @@
 {
-  "name": "question-105",
+  "name": "question44",
   "version": "1.0.0",
   "description": "",
-  "main": "Q105.js",
+  "main": "Q44.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

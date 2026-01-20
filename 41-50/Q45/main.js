@@ -21,5 +21,4 @@ function carInfo(manufacturer, model) {
 }
 // Calling the function with required information and additional key-value pairs
 var myCar = carInfo("Toyota", "Camry", ["color", "blue"], ["year", 2022]);
-// Printing the car information
 console.log(myCar);
