@@ -2,14 +2,12 @@
 // a const-declared variable and catch the error.
 // Using `let` for a variable that can be reassigned
 var age = 25;
-age = 26; // Works fine because `let` allows reassignment
-console.log(age); // Shows 26
-// Trying to reassign a `const`-declared variable
+age = 26; 
+console.log(age); 
 var Name = "Alice";
 try {
-    Name = "Bob"; // This line will cause an error
+    Name = "Bob"; 
 }
 catch (error) {
-    console.log("Error: Can't reassign a `const`-declared variable."); // This message is shown
+    console.log("Error: Can't reassign a `const`-declared variable."); 
 }
-// This example illustrates that `const` prevents changing the variable once it's set.

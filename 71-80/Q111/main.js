@@ -1,4 +1,4 @@
-//Use an if-else-if chain to categorize a person's age group (child, teenager, adult).
+//Use an if-else-if chain to categorize a person's age group (child, teenager, adult)
 function categorizeAge(age) {
     if (age < 13) {
         return 'Child';
@@ -10,7 +10,6 @@ function categorizeAge(age) {
         return 'Adult';
     }
 }
-// Test the function
 var personAge = parseInt(prompt("Enter the person's age: ") || "0");
 var ageGroup = categorizeAge(personAge);
 console.log("The person is in the age group:\u00A0".concat(ageGroup));
