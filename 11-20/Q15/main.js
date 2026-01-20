@@ -5,6 +5,7 @@
 // • Modify your list, replacing the name of the guest who can’t make it with the name of the new person you are inviting.
 // • Print a second set of invitation messages, one for each person who is still in your list.
 //# Original guest list
+
 var guestList = ["Jiya", "Mehak", "Tayyaba"];
 console.log("Dear ".concat(guestList[0], ", you are invited to dinner."));
 console.log("Dear ".concat(guestList[1], ", you are invited to dinner."));
