@@ -9,4 +9,4 @@ function describe_city(city, country) {
 // Calling the function for different cities
 describe_city("Karachi", "Pakistan");
 describe_city("New York", "USA");
-describe_city("Tokyo"); // Using the default country
+describe_city("Tokyo"); 

@@ -3,7 +3,6 @@
 // • Remove all of the usernames from your array, and make sure the correct message is printed.
 var users = ["Jiya", "Warda", "Mehak"];
 if (users.length > 0) {
-    //If the list is not empty
     console.log("List of users:");
     for (var _i = 0, users_1 = users; _i < users_1.length; _i++) {
         var user = users_1[_i];
@@ -14,7 +13,7 @@ else {
     // If the list is empty
     console.log("We need to find some users!");
 }
-// Remove all usernames from the array
+
 users = [];
 if (users.length > 0) {
     console.log("List of users:");
