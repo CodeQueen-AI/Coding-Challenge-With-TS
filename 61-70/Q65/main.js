@@ -1,10 +1,10 @@
-//Determine the Remainder: Make a function that gets two numbers and shows the leftover from dividing them 
-//using the % sign. For example, remainder(5, 2) should give 1.
-// This function finds the leftover of dividing two numbers
-function remainder(num1, num2) {
-    // Gives back the leftover of num1 divided by num2
-    return num1 % num2;
-}
-// Trying it with 5 divided by 2
-console.log(remainder(5, 2)); // Shows 1
-// This tells us the leftover, which is 1 here.
+//Iterate over a Map of student IDs and names, and log each pair to the console.
+// Define a Map of student IDs and names
+var studentMap = new Map();
+studentMap.set(1, 'John');
+studentMap.set(2, 'Alice');
+studentMap.set(3, 'Bob');
+console.log("Student IDs and Names:");
+studentMap.forEach(function (name, id) {
+    console.log("Student ID: ".concat(id, ", Name:\u00A0").concat(name));
+});
